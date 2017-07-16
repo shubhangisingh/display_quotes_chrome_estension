@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "New Quotes",
+  "description": "This extension shows a Random Quates Every time",
+  "version": "0.1",
+  "author": "Shubhangi",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "click me"
+  },
+  "permissions": [
+    "tabs",
+    "http://quotesondesign.com/wp-json/posts"
+  ]
+}
